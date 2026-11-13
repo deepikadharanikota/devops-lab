@@ -50,3 +50,4 @@
       systemd:
         name: greeting.service
         state: restarted
+invalid: [unclosed
