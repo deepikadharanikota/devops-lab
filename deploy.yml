@@ -8,7 +8,7 @@
     - name: Install Flask and Gunicorn
       apt:
         name:
-         - python3-flask
+          - python3-flask
           - gunicorn
         update_cache: yes
         state: present
@@ -50,4 +50,4 @@
       systemd:
         name: greeting.service
         state: restarted
-invalid: [unclosed
+
